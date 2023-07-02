@@ -166,15 +166,7 @@ Fig. 13: CAN Configurations
 Fig. 14: CAN Connection
 </p>
 
-6. Built the ladder diagram for the PID control of AC Servo Motor.
-<p align="center">
-  <img src="https://github.com/kagankalayli/PID-Controller-Design-in-LabVIEW-for-Schneider-PLC-to-Control-AC-Servo-Motor/blob/main/automationlabviewopc/somachine.PNG" />
-</p> 
-<p align="center">
-Fig. 15: SoMachine Ladder Logic
-</p>
-
-**System setup is as below;**
+**System setup is given as below;**
 <p align="center">
   <img src="https://github.com/kagankalayli/PID-Controller-Design-in-LabVIEW-for-Schneider-PLC-to-Control-AC-Servo-Motor/blob/main/automationlabviewopc/panotanim.jpg" />
 </p> 
