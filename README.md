@@ -28,22 +28,7 @@ own protocols for industrial communication; both producers and users are affecte
 controller brand must be designed for each SCADA software. This situation creates many difficulties in practice. Such solutions based on product-specific driver development have 
 created many problems. The concept of OLE for Process Control OPC has emerged as a result of the meeting of industrial automation system manufacturers, industrial communication systems manufacturers 
 and automation firms to remove the obstacles in this area. OPC has created a clear line between the standard interface hardware manufacturers and 
-software providers. Hardware manufacturers can communicate with software that has to all OPC client features on the market with a single driver. Thus, this saves resources and time.
-OPC has become a set of standards with time. These standards can be listed as follows: OPC Data Access (OPC DA), OPC Historical Data Access (OPC HDA), OPC Alarm & Events 
-(OPC A&E), OPC Extensible Markup Language (OPC XML) and OPC Unified Architecture (OPC UA). OPC DA is the standard for real-time streaming of data. OPC HDA is the standard that regulates the transfer of historical data records.
-OPC A&E is the standard that regulates the alarm and the related standard. OPC XML is the standard that regulates OPC-compatible interface development.
-OPC UA is the last published standard and is the standard for making OPC technology safer.
-
-**OPC Client - OPC Server Communications - (OPC DA Server, OPC HDA Server, OPC A&E Server)**
-Classic OPC Servers utilize the Microsoft Windows’ COM/DCOM infrastructure as a means of exchanging data. This means these OPC Servers must run on the Microsoft Windows 
-operating system. An OPC Server can support communications with multiple OPC Clients simultaneously.
-
-**OPC Server - Data Translation/Mapping**
-A key OPC server function is to translating data native to the data source into an OPC format that’s compatible with one or more OPC Specifications mentioned above (example: OPC DA for real-time data). OPC Foundation specifications only define what the OPC portion of OPC Server communications so the efficiency and quality of the Native-to-OPC and OPC-toNative translations depends entirely on each vendor’s OPC Server implementation.
-
-**OPC Server-Data Source Communications**
-OPC Servers communicate natively with data-sources examples of which are: devices, controllers, and applications. OPC Foundation specifications do not specify how OPC Servers 
-connect to and communicate with data sources because of the wide variety of data sources available.
+software providers. Hardware manufacturers can communicate with software that has to all OPC client features on the market with a single driver. Thus, this saves resources and time. OPC UA is the last published standard and is the standard for making OPC technology safer.
 
 ## Lexium 32 AC Servo Motor Drive
 The Lexium 32 product family consists of various servo drive models that cover different application areas. Together with Lexium BMH servo motors or Lexium BSH servo motors, the drives are ideally suited to implement compact, high-performance drive solutions for a wide range of power requirements. The reference values for numerous operating modes are supplied via communication interface for CANopen and CANmotion.
